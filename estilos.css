@@ -245,11 +245,45 @@ p {
 
 .bloque_sobre_mi {
   flex: 1;
+  text-align: justify;
 }
 
-.bloque_sobre_mi + img {
+.bloque_sobre_mi_derecha {
   width: 36%;
   margin-left: 4%;
+}
+
+.bloque_sobre_mi_derecha img {
+  width: 100%;
+}
+
+.firma {
+  max-width: 80%;
+  width: 240px;
+}
+
+.frase {
+  margin-top: 2em;
+  padding: 1.5em;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #ececec;
+  border-left: 4px solid var(--color_secundario);
+}
+
+.titulo_frase {
+  display: block;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.autor_frase {
+  display: block;
+  margin-top: 0.5em;
+  text-align: right;
+  color: #666;
+  font-size: 0.875em;
+  font-style: italic;
 }
 
 .bloque_formacion {
@@ -761,7 +795,7 @@ a.proyecto {
     margin-top: 4em;
   }
 
-  .bloque_sobre_mi + img {
+  .bloque_sobre_mi_derecha {
     margin-left: 0;
     margin-top: 1em;
     width: 100%;
