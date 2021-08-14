@@ -1,3 +1,3 @@
 <script>
-  href.location = "https://fabioperedadevita.github.io/cv";
+  window.location.href = "https://fabioperedadevita.github.io/cv";
 </script>
